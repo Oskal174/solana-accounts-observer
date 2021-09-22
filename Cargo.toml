@@ -1,0 +1,19 @@
+[package]
+name = "solana-accounts-observer"
+version = "0.1.0"
+description = "Solana accounts observer"
+edition = "2018"
+publish = false
+
+[dependencies]
+solana-client = "1.7.10"
+solana-account-decoder = "1.7.10"
+solana-program = "1.7.10"
+solana-sdk = "1.7.10"
+bincode = "1.3.2"
+borsh = "0.8.2"
+clap = "2.33.3"
+solana-clap-utils = "1.7"
+solana-cli-config = "1.7"
+spl-token = { version="3.2.0", features = [ "no-entrypoint" ] }
+spl-token-metadata = { version="0.0.1", features = [ "no-entrypoint" ] }
